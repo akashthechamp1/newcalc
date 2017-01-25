@@ -49,9 +49,9 @@ public class App {
 				case 4:
 					System.out.println("Division of Two Numbers");
 					System.out.println("Enter Number 1 :");
-					input1 = sc.nextDouble();
+					input1 = sc.nextInt();
 					System.out.println("Enter Number 2 :");
-					input2 = sc.nextDouble();
+					input2 = sc.nextInt();
 					System.out.println("Division of " + input1 + " / " + input2 + " = " + calc.divide(input1, input2));
 					break;
 				case 5:

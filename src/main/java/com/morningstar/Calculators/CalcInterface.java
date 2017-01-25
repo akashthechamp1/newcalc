@@ -15,7 +15,7 @@ public interface CalcInterface {
 
 	public Double multiply(double input1, double input2);
 
-	public Double divide(double input1, double input2);
+	public Double divide(float input1, float input2);
 
 	public Double expone(double input1);
 
