@@ -111,7 +111,7 @@ public class App {
 
 				if (a != 8) {
 					System.out.println("\n Enter Y to Continue ");
-					 x = sc.next();
+				
 
 					for (int clear = 0; clear < 1000; clear++) {
 						System.out.println("\b");
