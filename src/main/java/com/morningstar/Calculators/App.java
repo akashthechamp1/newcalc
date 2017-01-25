@@ -119,7 +119,7 @@ public class App {
 				}
 			}
 		} catch (Exception e) {
-			
+			throw new RuntimeException(e);
 			System.err.println("Exception :" + e.getMessage());
 		}
 	}
