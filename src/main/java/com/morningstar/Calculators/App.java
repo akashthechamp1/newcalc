@@ -10,6 +10,7 @@ public class App {
 			CalcApplication calc = new CalcApplication();
 			System.out.println("\t Welcome \n Calculator Program Using Maven");
 			double input1,input2;
+			float input3,input4;
 			int a ;
 			String x;
 			boolean flag = true;
@@ -49,9 +50,9 @@ public class App {
 				case 4:
 					System.out.println("Division of Two Numbers");
 					System.out.println("Enter Number 1 :");
-					input1 = sc.nextInt();
+					input3 = sc.nextInt();
 					System.out.println("Enter Number 2 :");
-					input2 = sc.nextInt();
+					input4 = sc.nextInt();
 					System.out.println("Division of " + input1 + " / " + input2 + " = " + calc.divide(input1, input2));
 					break;
 				case 5:
