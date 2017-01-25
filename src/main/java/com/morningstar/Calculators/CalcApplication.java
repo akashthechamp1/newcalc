@@ -15,12 +15,10 @@ public class CalcApplication implements CalcInterface {
 		return (input1 * input2);
 	}
 
-	public Double divide(float input1, float input2) {
+	public float divide(float input1, float input2) {
 		if (input2 != 0.0f) {
-			double x = (input1 / input2);
+			float x = (input1 / input2);
 			return x;
-		} else {
-			return Double.MIN_VALUE;
 		}
 	}
 
