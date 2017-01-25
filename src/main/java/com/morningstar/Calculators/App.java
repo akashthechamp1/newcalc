@@ -120,7 +120,7 @@ public class App {
 			}
 		} catch (Exception e) {
 			
-		LOGGER.info(e); 
+	 
 		}
 	}
 }
