@@ -16,7 +16,7 @@ public class CalcApplication implements CalcInterface {
 	}
 
 	public Double divide(double input1, double input2) {
-		if (input2 != 0.0) {
+		if (input2 != 0) {
 			double x = (input1 / input2);
 			return x;
 		} else {
