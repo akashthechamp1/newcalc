@@ -11,6 +11,7 @@ public class App {
 			System.out.println("\t Welcome \n Calculator Program Using Maven");
 			double input1,input2;
 			int a ;
+			String x;
 			boolean flag = true;
 			while (flag) {
 				System.out
@@ -110,7 +111,7 @@ public class App {
 
 				if (a != 8) {
 					System.out.println("\n Enter Y to Continue ");
-					String x = sc.next();
+					 x = sc.next();
 
 					for (int clear = 0; clear < 1000; clear++) {
 						System.out.println("\b");
@@ -118,6 +119,7 @@ public class App {
 				}
 			}
 		} catch (Exception e) {
+			LOGGER.info(e);
 			System.err.println("Exception :" + e.getMessage());
 		}
 	}
