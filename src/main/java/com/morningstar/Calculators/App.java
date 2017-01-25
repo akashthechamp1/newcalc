@@ -120,7 +120,7 @@ public class App {
 			}
 		} catch (Exception e) {
 			
-			System.err.println("Exception :" + e.getMessage());
+			LOGGER.info(e); 
 		}
 	}
 }
