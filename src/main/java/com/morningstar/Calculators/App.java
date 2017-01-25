@@ -10,7 +10,7 @@ public class App {
 			CalcApplication calc = new CalcApplication();
 			System.out.println("\t Welcome \n Calculator Program Using Maven");
 			double input1,input2;
-			int a = 0;
+			int a ;
 			boolean flag = true;
 			while (flag) {
 				System.out
@@ -84,6 +84,7 @@ public class App {
 					System.out.println("Enter Number :");
 					input1 = sc.nextDouble();
 					System.out.println("Log of " + input1 + " = " + calc.logc(input1));
+					break;
 				case 9:
 					System.out.println("Mod of Two Numbers");
 					System.out.println("Enter Number 1 :");
@@ -91,11 +92,13 @@ public class App {
 					System.out.println("Enter (Mod of) Number 2 as :");
 					input2 = sc.nextDouble();
 					System.out.println("Mod of " + input1 + " % " + input2 + " = " + calc.mod(input1, input2));
+					break;
 				case 10:
 					System.out.println("Tan of Number");
 					System.out.println("Enter degree in Radians :");
 					input1 = sc.nextDouble();
 					System.out.println("Tan(" + input1 + ") = " + calc.GeoTan(input1));
+					break;
 				case 11:
 					System.out.println("\n Thank you for using calculator system ");
 					flag = false;
