@@ -1,7 +1,7 @@
 package com.morningstar.Calculators;
 
 import java.util.Scanner;
-
+import java.util.*;
 
 public class App {
 	public static void main(String[] args) {
@@ -120,7 +120,7 @@ public class App {
 			}
 		} catch (Exception e) {
 			
-			LOGGER.info(e); 
+		LOGGER.info(e); 
 		}
 	}
 }
