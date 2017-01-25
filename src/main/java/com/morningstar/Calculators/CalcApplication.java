@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.morningstar.Calculators;
 
 public class CalcApplication implements CalcInterface {

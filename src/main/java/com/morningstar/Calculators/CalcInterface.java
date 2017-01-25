@@ -25,11 +25,10 @@ public interface CalcInterface {
 
 	public double logc(double a);
 
-<<<<<<< HEAD
+
 	public double mod(double input1, double input2); //sorry mandar again
-=======
-	public double mod(double input1, double input2); //Edited By Mandar again
->>>>>>> 1d04267a6d6f46e5025ad17e5b3aa20ad4da5cb6
+
+	
 
 	public double GeoTan(double input1);
 
