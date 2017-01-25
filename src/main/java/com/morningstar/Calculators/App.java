@@ -9,7 +9,7 @@ public class App {
 			Scanner sc = new Scanner(System.in);
 			CalcApplication calc = new CalcApplication();
 			System.out.println("\t Welcome \n Calculator Program Using Maven");
-			double input1 = 0, input2 = 0;
+			double input1,input2;
 			int a = 0;
 			boolean flag = true;
 			while (flag) {
