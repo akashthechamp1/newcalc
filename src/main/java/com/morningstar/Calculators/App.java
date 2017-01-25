@@ -5,7 +5,7 @@ import java.util.*;
 
 public class App {
 	public static void main(String[] args) {
-		try {
+	
 			Scanner sc = new Scanner(System.in);
 			CalcApplication calc = new CalcApplication();
 			System.out.println("\t Welcome \n Calculator Program Using Maven");
@@ -115,12 +115,9 @@ public class App {
 
 					for (int clear = 0; clear < 1000; clear++) {
 						System.out.println("\b");
-					}
+					
 				}
 			}
-		} catch (Exception e) {
-			
-	 
-		}
+		} 
 	}
 }
